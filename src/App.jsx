@@ -18,9 +18,9 @@ function App() {
 export default App;
 function BusinessCard () {
   return (
-    <div className='grid grid-cols-12 gap-2 mx-2 my-8'>
+    <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-2 mx-2 my-8'>
       
-     <div className='col-span-3 p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
+     <div className='p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
       <div className='flex justify-center'><img src="/images/basket-tomato.jpeg" alt="Basket Tomato" className='w-50 h-50' /></div>
 
       <div className='bg-yellow-50 p-5 text-green-600 mt-3 rounded-lg text-center justify-center'>
@@ -32,7 +32,7 @@ function BusinessCard () {
      </div>
      
 
-     <div className='col-span-3 p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
+     <div className='p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
       <div className='flex justify-center'><img src="/images/sweet-tomato.jpeg" alt="Sweet Tomato" className='w-50 h-50' /></div>
 
       <div className='bg-yellow-50 p-5 text-green-600 mt-3 rounded-lg text-center justify-center'>
@@ -44,7 +44,7 @@ function BusinessCard () {
      </div>
      
 
-     <div className='col-span-3 p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
+     <div className='p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
       <div className='flex justify-center'><img src="/images/fresh-tomato.jpeg" alt="Fresh Tomato" className='w-50 h-50'  /></div>
 
       <div  className='bg-yellow-50 p-5 text-green-600 mt-3 rounded-lg text-center justify-center'>
@@ -56,7 +56,7 @@ function BusinessCard () {
      </div>
      
 
-     <div className='col-span-3 p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
+     <div className='p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
       <div className='flex justify-center'><img src="/images/red-tomato.jpeg" alt="Red Tomato" className='w-50 h-50'  /></div>
 
       <div  className='bg-yellow-50 p-5 text-green-600 mt-3 rounded-lg text-center justify-center'>
@@ -68,7 +68,7 @@ function BusinessCard () {
      </div>
 
      
-     <div className='col-span-3 p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
+     <div className='p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
       <div className='flex justify-center'><img src="/images/pepper.jpeg" alt="Pepper" className='w-50 h-50'  /></div>
 
       <div  className='bg-yellow-50 p-5 text-green-600 mt-3 rounded-lg text-center justify-center'>
@@ -80,7 +80,7 @@ function BusinessCard () {
      </div>
      
 
-     <div className='col-span-3 p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
+     <div className='p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
       <div className='flex justify-center'><img src="/images/cap-rice.jpeg" alt="Cap Rice" className='w-50 h-50'  /></div>
 
       <div  className='bg-yellow-50 p-5 text-green-600 mt-3 rounded-lg text-center justify-center'>
@@ -92,7 +92,7 @@ function BusinessCard () {
      </div>
      
 
-     <div className='col-span-3 p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
+     <div className='p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
       <div className='flex justify-center'><img src="/images/stack-rice.jpeg" alt="Stack Rice" className='w-50 h-50'  /></div>
 
       <div  className='bg-yellow-50 p-5 text-green-600 mt-3 rounded-lg text-center justify-center'>
@@ -104,7 +104,7 @@ function BusinessCard () {
      </div>
     
 
-     <div className='col-span-3 p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
+     <div className='p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
       <div className='flex justify-center'><img src="/images/royal-rice.jpeg" alt="Royal Rice" className='w-50 h-50'  /></div>
 
       <div  className='bg-yellow-50 p-5 text-green-600 mt-3 rounded-lg text-center justify-center'>
@@ -116,7 +116,7 @@ function BusinessCard () {
       </div>
 
      
-     <div className='col-span-3 p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
+     <div className='p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
       <div className='flex justify-center'><img src="/images/1L-vegetable-oil.jpeg" alt="1L Vegetable-oil" className='w-50 h-50' /></div>
 
       <div  className='bg-yellow-50 p-5 text-green-600 mt-3 rounded-lg text-center justify-center'>
@@ -128,7 +128,7 @@ function BusinessCard () {
      </div> 
      
 
-     <div className='col-span-3 p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
+     <div className='p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
       <div className='flex justify-center'><img src="/images/5L-vegetable-oil2.jpeg" alt="5L Vegetable-oil" className='w-50 h-50' /></div>
 
       <div  className='bg-yellow-50 p-5 text-green-600 mt-3 rounded-lg text-center justify-center'>
@@ -140,7 +140,7 @@ function BusinessCard () {
      </div>
      
 
-     <div className='col-span-3 p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
+     <div className='p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
       <div className='flex justify-center'><img src="/images/canola-vegetableoil.jpeg" alt="Canola Oil" className='w-50 h-50'  /></div>
 
       <div  className='bg-yellow-50 p-5 text-green-600 mt-3 rounded-lg text-center justify-center'>
@@ -152,7 +152,7 @@ function BusinessCard () {
      </div>
      
 
-     <div className='col-span-3 p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
+     <div className='p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
       <div className='flex justify-center'><img src="/images/laser-vegetable-oil4.jpeg" alt="Laser Vegetableoil" className='w-50 h-50'  /></div>
 
       <div  className='bg-yellow-50 p-5 text-green-600 mt-3 rounded-lg text-center justify-center'>
@@ -164,7 +164,7 @@ function BusinessCard () {
      </div>
 
      
-     <div className='col-span-3 p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
+     <div className='p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
       <div className='flex justify-center'><img src="/images/egg-crates.jpeg" alt="Egg Crates" className='w-50 h-50' /></div>
 
       <div  className='bg-yellow-50 p-5 text-green-600 mt-3 rounded-lg text-center justify-center'>
@@ -176,7 +176,7 @@ function BusinessCard () {
      </div>
      
 
-     <div className='col-span-3 p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
+     <div className='p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
       <div className='flex justify-center'><img src="/images/fresh-egg.jpeg" alt="Fresh Eggs" className='w-50 h-50' /></div>
 
       <div  className='bg-yellow-50 p-5 text-green-600 mt-3 rounded-lg text-center justify-center'>
@@ -188,7 +188,7 @@ function BusinessCard () {
      </div>
     
 
-     <div className='col-span-3 p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
+     <div className='p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
       <div className='flex justify-center'><img src="/images/water-1.jpeg" alt="Can Water" className='w-50 h-50'  /></div>
 
       <div  className='bg-yellow-50 p-5 text-green-600 mt-3 rounded-lg text-center justify-center'>
@@ -199,7 +199,7 @@ function BusinessCard () {
       </div>
      </div>
 
-     <div className='col-span-3 p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
+     <div className='p-3 rounded-2xl border border-gray-100 shadow-md overflow-hidden hover:shadow-lg hover:border-green-400 transition duration-300'>
       <div className='flex justify-center'><img src="/images/bottled-water.jpeg" alt="Bottled Water" className='w-50 h-50'  /></div>
 
       <div  className='bg-yellow-50 p-5 text-green-600 mt-3 rounded-lg text-center justify-center'>
